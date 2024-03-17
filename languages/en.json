@@ -1,0 +1,27 @@
+{
+    "navegador": {
+        "Inicio": "Home",
+        "Sobre mi": "About me",
+        "Lecciones": "Lessons",
+        "Contacto": "Contact"
+    },
+    "Header": {
+        "clases": "Book Lessons With Juan Manuel Almirón",
+        "texto1": "I am delighted to be able to teach both UK and international Students online using Live and On Demand Classes or in person at studios in and around London. By special arrangement I travel internationally to teach at studios. Please contact me for Private classes for your organisation.",
+        "reserva": "Book Lessons"
+    },
+    "container": {
+        "titulo01": "About Juan",
+        "texto01": "Born in Liège, from as early as I could walk I remember loving to dance and have always been a mover and a performer. Any occasion was an occasion to perform. I always loved dancing with my dad who taught me my first steps while I would stand up on his feet…",
+        "titulo02": "Coaching and Lessons",
+        "texto02": "With a passion for Dynamics, I specialise in bringing out the true passion and intention of the dance to make you stand out on the dance floor. I teach Worldwide competitors and Pro-Am students so we can continue to develop the world of dance together…",
+        "titulo03": "Adjudicating",
+        "texto03": "Since retiring from competitive dance in 2015 I have had the honour of judging World Class events such as the International, UK Championship and Blackpool Festival as well as being a judge on the TV Programme Dancing with the Stars, Belgium…"
+    },
+
+    "footer": {
+        "footer": 
+        "2024 All rights reserved."   
+    }
+}
+

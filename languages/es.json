@@ -1,0 +1,24 @@
+{
+    "navegador": {
+        "Inicio": "Inicio",
+        "Sobre mi": "Sobre mí",
+        "Lecciones": "Lecciones",
+        "Contacto": "Contacto"
+    },
+    "Header": {
+        "clases": "Reserva clases con Juan Manuel Almirón",
+        "texto1": "Me complace poder enseñar tanto a estudiantes del Reino Unido como internacionales en línea, utilizando clases en vivo y bajo demanda o en persona en estudios en Londres y sus alrededores. Por acuerdo especial, viajo internacionalmente para enseñar en estudios. Por favor, contáctame para clases privadas.",
+        "reserva": "Reserva clases"
+    },
+    "container": {
+        "titulo01": "Acerca de Juan",
+        "texto01": "Nacido en Lieja, desde que pude caminar recuerdo amar bailar y siempre he sido un bailarín y un intérprete. Cualquier ocasión era una ocasión para actuar. Siempre me encantó bailar con mi papá, quien me enseñó mis primeros pasos mientras yo me paraba sobre sus pies...",
+        "titulo02": "Coaching y lecciones",
+        "texto02": "Con una pasión por la dinámica, me especializo en sacar la verdadera pasión y la intención del baile para que destaques en la pista de baile. Enseño a competidores de todo el mundo y a estudiantes Pro-Am para que podamos seguir desarrollando juntos el mundo del baile...",
+        "titulo03": "Adjudicación",
+        "texto03": "Desde que me retiré de la danza competitiva en 2015, he tenido el honor de juzgar eventos de clase mundial como el Internacional, el Campeonato del Reino Unido y el Festival de Blackpool, así como de ser juez en el programa de televisión Bailando con las Estrellas, Bélgica..."
+    },
+    "footer": {
+        "footer": "Todos los derechos reservados 2024"
+    }
+}
