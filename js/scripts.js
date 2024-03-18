@@ -31,3 +31,22 @@ const changeLanguage = async (language) => {
 flagsElement.addEventListener("click", (e) => {
     changeLanguage(e.target.parentElement.dataset.language);
 });
+
+
+// Función para abrir una nueva ventana o pestaña con el contenido deseado
+// Agregar evento de clic a los enlaces de "Inicio", "Sobre mí" y "Lecciones"
+document.querySelector('a[data-value="Inicio"]').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevenir comportamiento predeterminado del enlace
+    window.location.href = 'index.html'; // Redirigir a la página "index.html" en la misma ventana
+  });
+  
+  document.querySelector('a[data-value="Sobre mi"]').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevenir comportamiento predeterminado del enlace
+    window.location.href = 'sobremi.html'; // Redirigir a la página "sobre-mi.html" en la misma ventana
+  });
+  
+  document.querySelector('a[data-value="Lecciones"]').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevenir comportamiento predeterminado del enlace
+    window.location.href = 'lecciones.html'; // Redirigir a la página "lecciones.html" en la misma ventana
+  });
+  
