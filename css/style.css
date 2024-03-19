@@ -1,6 +1,6 @@
 :root {
   --color-white: #E0E0E0;
-  --color-black: #101010;
+  --color-black: #0c0c0c;
   }
 
   body {
@@ -9,6 +9,7 @@
     background-repeat: no-repeat; 
     position: relative;
     background-position: top; 
+    font-size: calc(15px + 0.390625vw);
 }
 
 body::before {
@@ -26,19 +27,12 @@ body::before {
       background-color: rgba(0, 0, 0, 0.3);
       color: var(--color-white);
       }
-      
-      h1 {
-      font-family: "Crimson Text", serif;
-      font-size: 1.5vw;
-      color: var(--color-white);
-      position: relative;
-      }
-      
-      h2, p {
+
+      h1, h2, h3, h4, p {
+      text-align: center;
       position: relative;
       font-family: "Crimson Text", serif;
       font-weight: 700;
-      font-size: 1.2vw;
       background-image: linear-gradient(
       to right,
       #cb9b51 0, 
@@ -55,31 +49,80 @@ body::before {
       filter: brightness(102%); 
       }
       
-      h2 {
-      font-size: 1.4vw;
-      }
-
-      .navbar-expand-sm .navbar-toggler-icon {
-        filter: invert(1);
+      h1 {
+        color: var(--color-white);
+        font-weight: 400;
+        font-size: 1.5vw;
         }
+        
+        h2 {
+          font-size: 1.5rem;
+        }
+  
+        h3 {
+          font-size: 1.3rem;
+        }
+  
+        button, h4, .nav-link  {
+          font-size: 1.1rem;
+        }
+
+        footer {
+          font-size: 0.9rem;
+        }
+      
+      .navbar-expand-sm .navbar-toggler-icon {
+          filter: invert();
+          z-index: 9;
+        }
+    
+        a {
+          color:var(--color-white) !important;
+          }
 
       a:hover {
         text-decoration: underline; 
         cursor: pointer; 
         text-underline-offset: 0.3em; 
         text-decoration-color: rgba(247, 240, 141, 0.75); 
+        color:var(--color-white);
         }
         
+        .flags {
+          width: 75px;
+          display: flex;
+          align-items: flex-start; 
+          justify-content: flex-end; 
+          position: absolute;
+          top: 17px; 
+          right: 35px; 
+        }
+        
+        .flags__item {
+          width: 40px;
+        }
+        
+        .flags__item:not(:last-child) {
+          margin-right: 10px;
+        }
+        
+        .flags__item img:hover {
+          display: block;
+          cursor: pointer;
+          filter: brightness(125%);
+        }
+
         .section-1 {
           width: 60%;
-          text-align: center;
           margin: auto;
-          margin-top: 2.3vw;
           }
           
           .section-1 h1 {
-          position: absolute;
-          transform: translate(-59%, -145%); 
+          position:relative;
+          transform: translate(-1%, -1%); 
+          text-align: left;
+          bottom: 5px;
+          right: 15vw;
           }
           
           .enviar {
@@ -90,10 +133,9 @@ body::before {
           padding: 8px 8px;
           border-radius: 50px; 
           display: inline-block; 
-          font-size: 0.8vw; 
           font-weight: bold;
           outline: none;
-          width: 6vw;
+          width: calc(100px + 0.390625vw);
           text-align: center;
           margin: auto;
           background-image: linear-gradient(
@@ -109,6 +151,10 @@ body::before {
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
           }
 
+          .enviar:hover {
+            filter: brightness(115%); 
+            }
+
           .imgs img {
             margin-top: 3vw;
             border-radius: 2%;
@@ -116,24 +162,17 @@ body::before {
             transition: transform 0.3s ease;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); 
         }
-        
-          
-          .enviar:hover {
-          filter: brightness(115%); 
-          }
           
           .imgs .img-fluid:hover {
             transform: scale(0.92); 
           }
           
           .imgs h2{
-            font-size: 1.6vw;
             text-align: center;
           }
           
           .imgs p{
             margin-top: 1vw;
-            font-size: 1.1vw;
             padding-left: 4%;
             padding-right: 4%;
           }
@@ -164,43 +203,92 @@ body::before {
             position: relative;
             top: 2.1vw;
           } 
-  
+
+
+
+
+/*--------- LECCIONES PAG ---------*/
+header {
+  overflow: hidden; 
+  position: relative; 
+  height: 90vh; 
+  bottom: 26vw;
+  z-index: -1;
+
+}
+
+header h2 {
+font-size: calc(15px + 0.390625vw);
+position: relative; 
+bottom: 39vw;
+z-index: 11;
+font-size: 1.9em;
+padding-left: 12vw;
+padding-right:  12vw;
+
+}
+header img {
+filter: brightness(40%);
+}
   /* MEDIA QUERIES */
 
 
-  @media (max-width: 575.98px) {    
+  @media (max-width: 575.98px) {   
+
+      .imgs img {
+        margin-top: -5vw;
+        transform: scale(0.75);
+    }
+      
+      .imgs .img-fluid:hover {
+        transform: scale(0.8); 
+      }
+
+      .imgs h2{
+        text-align: center;
+        margin-top: -10vw;
+      }
+      
+      .imgs p{
+        margin-top: 1vw;
+        padding-left: 4%;
+        padding-right: 4%;
+      }
+      
+      .flags {
+        top: 13px; 
+        right: 29px; 
+      }
+      .flags__item {
+        width: 30px;
+      }
   }
   
   @media (min-width: 576px) {
   }
 
-  @media (min-width: 768px) {
-
+  @media (max-width: 768px) {
   }
   
-  @media (min-width: 992px) {
+  @media (max-width: 992px) {
     
+    h1 {
+      opacity: 0;
+      }
   }
 
   @media (max-width: 1200px) {
-
   }
 
-  .flags {
-    width: 75px;
-    display: flex;
-    align-items: right;
-    justify-content: space-between;
+  @media (max-width: 1441px) {
+    .section-1 {
+      width: 82%;
+      } 
+      .section-1 h1 {
+        right: 5vw;
+        }
   }
-  
-  .flags__item {
-    width: 30px;
-    transform: translate(-100%);
-  }
-  
-  .flags__item img:hover {
-    display: block;
-    cursor:pointer;
-    filter: brightness(125%);
-    
-  }
+
+.textolec p {
+  bottom: 450px;
+    }
