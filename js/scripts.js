@@ -1,6 +1,16 @@
 "use strict";
 
 /* 
+
+git add .
+git commit -m "modificaciones del dia de hoy"
+git push -u origin main
+
+
+
+
+
+
 https://www.joannaleunis.com/
 MODIFICAR TODAS LAS MEDIDAS A RELATIVAS (VW)
 agregar destellos al hacer clikc con en el mouse
@@ -21,7 +31,8 @@ pero el container box podria justar la altura con vh y el ancho con vw
 CREO QUE LA SOLUCION ES font-size: larger;
 bajarle transparencia a las banderas?
 oscurecer un poco la portada donde aparece el chino
-
+revisar el bug del viewport abajo de todo en la version movile
+revisar en la pagina de leeciones, cuando abro el nav bar en la version movile, que queda mal puesto con la imagen del header
 --------font-family: "Dancing Script", cursive;--------
 --------font-family: "Crimson Text", serif; --------
 
@@ -99,7 +110,19 @@ document.querySelector('a[data-value="Inicio"]').addEventListener('click', funct
 });
 
 
+$(document).ready(function() {
+    // Función para ajustar la posición vertical del texto debajo de la imagen visible
+    function ajustarPosicionTexto() {
+        var alturaImagenVisible = $(window).scrollTop() + $(window).height() - $('img').offset().top;
+        $('#texto').css('top', alturaImagenVisible + 'px');
+    }
 
+    // Llama a la función cuando se carga la página y cuando se desplaza la ventana
+    ajustarPosicionTexto();
+    $(window).scroll(function() {
+        ajustarPosicionTexto();
+    });
+});
 
 
 

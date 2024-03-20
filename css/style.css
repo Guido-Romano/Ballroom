@@ -107,9 +107,9 @@ body::before {
         }
         
         .flags__item img:hover {
-          display: block;
+          transform: scale(115%);
           cursor: pointer;
-          filter: brightness(125%);
+          filter: brightness(115%);
         }
 
         .section-1 {
@@ -177,7 +177,60 @@ body::before {
             padding-right: 4%;
           }
           
-          .footer-section{
+          
+          footer {
+            background-color: var(--color-black);
+            color: var(--color-white);
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            top: 2.1vw;
+          } 
+
+
+/*--------- LECCIONES PAG ---------*/
+
+
+
+.lecciones-body {
+  background-image: url("../assets/img08.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  backdrop-filter: blur(3px) brightness(40%); 
+  }
+
+
+/*
+.section-2{
+  position: relative;
+  margin-top: calc(40px + -28vw); 
+}
+
+header{
+  overflow: hidden; 
+  position: relative; 
+  height: 85vh; 
+  bottom: 28vw;
+  z-index: -1;
+}
+
+header h2{
+font-size: calc(15px + 0.390625vw);
+position: relative; 
+bottom: 38vw;
+font-size: 1.9em;
+text-align: center;
+margin: auto;
+width: 80%;
+}
+
+header img, footer img {
+filter: brightness(40%);
+}
+
+
+.footer-section{
             position: relative;
             overflow: hidden;
             height:25vw;
@@ -193,43 +246,9 @@ body::before {
             bottom: 4.7vw;
             filter: brightness(25%);
             }
-            
-          
-          footer {
-            background-color: var(--color-black);
-            color: var(--color-white);
-            padding: 20px 0;
-            text-align: center;
-            position: relative;
-            top: 2.1vw;
-          } 
 
+*/
 
-
-
-/*--------- LECCIONES PAG ---------*/
-header {
-  overflow: hidden; 
-  position: relative; 
-  height: 90vh; 
-  bottom: 26vw;
-  z-index: -1;
-
-}
-
-header h2 {
-font-size: calc(15px + 0.390625vw);
-position: relative; 
-bottom: 39vw;
-z-index: 11;
-font-size: 1.9em;
-padding-left: 12vw;
-padding-right:  12vw;
-
-}
-header img {
-filter: brightness(40%);
-}
   /* MEDIA QUERIES */
 
 
@@ -262,6 +281,7 @@ filter: brightness(40%);
       .flags__item {
         width: 30px;
       }
+    
   }
   
   @media (min-width: 576px) {
@@ -289,6 +309,3 @@ filter: brightness(40%);
         }
   }
 
-.textolec p {
-  bottom: 450px;
-    }
