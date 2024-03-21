@@ -1,14 +1,11 @@
 "use strict";
 
 /* 
-
 git add .
 git commit -m "modificaciones del dia de hoy"
 git push -u origin main
 
-
-
-
+https://guido-romano.github.io/Ballroom/
 
 
 https://www.joannaleunis.com/
@@ -33,11 +30,127 @@ bajarle transparencia a las banderas?
 oscurecer un poco la portada donde aparece el chino
 revisar el bug del viewport abajo de todo en la version movile
 revisar en la pagina de leeciones, cuando abro el nav bar en la version movile, que queda mal puesto con la imagen del header
+
+
 --------font-family: "Dancing Script", cursive;--------
 --------font-family: "Crimson Text", serif; --------
 
 
+
+
+
+
+
+
+
+<!--
+<header>
+  <img src="assets/img08.jpeg" alt="Imagen de encabezado" class="img-fluid">
+
+</header>
+
+<footer>
+  <img src="assets/img08.jpeg" alt="Imagen de pie de página" class="img-fluid">
+
+</footer>
+
+
+
+<section class="section-1">
+  <div class="d-flex justify-content-center">
+    <div class="row col-sm-12">
+      <h1>Juan Manuel Almirón</h1>
+    </div>
+  </div>
+</section>
+
+<header>
+  <img src="assets/img08.jpeg" class="img-fluid" alt="Imagen adaptada al ancho de la pantalla">
+  <h2 data-section="Header" data-value="texto1">Entrena como si nunca hubieras ganado, actúa como si nunca hubieras perdido.</h2>
+</header>
+
+<div class="container section-2">
+  <div class="row my-5">
+    <div class="col-sm-12">
+      <h2 data-section="Header" data-value="Apasionado">Este es tu gran oportunidad </h2>
+  <p data-section="Header" data-value="Apasionado">Apasionado por la Dinámica, me especializo en resaltar la verdadera pasión e intención del baile para hacerte destacar en la pista de baile.
+    Doy clases a competidores de todo el mundo y a estudiantes de Pro-Am. Con las restricciones actuales estoy entrenando online para que podamos seguir desarrollando juntos el mundo de la danza.<br><br>
+    Apasionado por la Dinámica, me especializo en resaltar la verdadera pasión e intención del baile para hacerte destacar en la pista de baile.
+    Doy clases a competidores de todo el mundo y a estudiantes de Pro-Am. Con las restricciones actuales estoy entrenando online para que podamos seguir desarrollando juntos el mundo de la danza.</p>
+</div>
+</div>
+</div>
+
+<div class="row col-sm-12 mt-4">
+  <p data-section="Header" data-value="texto1">Apasionado por la Dinámica, me especializo en resaltar la verdadera pasión e intención del baile para hacerte destacar en la pista de baile.
+    Doy clases a competidores de todo el mundo y a estudiantes de Pro-Am. Con las restricciones actuales estoy entrenando online para que podamos seguir desarrollando juntos el mundo de la danza.</p>
+</div>
+
+
+    <footer class="py-4">
+        <div class="container text-center">
+            <span data-section="footer" data-value="footer">
+                &copy; 2024 Todos los derechos reservados</span>
+        </div>
+    </footer>
+
+-->
+
+
+
+
+
+
+/*
+.section-2{
+  position: relative;
+  margin-top: calc(40px + -28vw); 
+}
+
+header{
+  overflow: hidden; 
+  position: relative; 
+  height: 85vh; 
+  bottom: 28vw;
+  z-index: -1;
+}
+
+header h2{
+font-size: calc(15px + 0.390625vw);
+position: relative; 
+bottom: 38vw;
+font-size: 1.9em;
+text-align: center;
+margin: auto;
+width: 80%;
+}
+
+header img, footer img {
+filter: brightness(40%);
+}
+
+
+.footer-section{
+            position: relative;
+            overflow: hidden;
+            height:25vw;
+            top: 2.1vw;
+            }
+            
+            .footer-section img {
+            position: relative; 
+            left: 0vw;
+            width: 100%; 
+            height: auto; 
+            object-fit: cover; 
+            bottom: 4.7vw;
+            filter: brightness(25%);
+            }
+
 */
+
+
+
 
 const flagsElement = document.getElementById("flags");
 const textsToChange = document.querySelectorAll("[data-section]");
