@@ -4,7 +4,7 @@
 
 ## Descripción
 
-Ballroom es una página web diseñada y desarrollada para una escuela de baile. Su objetivo es ofrecer información sobre los servicios de enseñanza, horarios y contacto, brindando una experiencia moderna y accesible para los alumnos y apasionados del baile.
+Ballroom es una página web creada especialmente para una escuela de baile, diseñada para proporcionar información clara y detallada sobre los servicios de enseñanza, horarios y métodos de contacto, presentada de forma atractiva y fácil de navegar.
 
 Aunque la página se muestra por defecto en español debido a las características del dominio estático de GitHub, **está disponible en dos idiomas: español e inglés**, adaptándose a una audiencia internacional.
 
