@@ -23,10 +23,9 @@ Este proyecto ha sido desarrollado con las siguientes tecnologías:
 ## Características
 
 - ✅ **Diseño elegante y profesional**
-- ✅ **Navegación intuitiva y optimizada**
-- ✅ **Compatible con dispositivos móviles y otras resoluciones**
 - ✅ **Disponible en español e inglés**
 - ✅ **Código claro y sin frameworks (vanilla)**
+- ✅ **Compatible con dispositivos móviles y otras resoluciones**
 
 ---
 
