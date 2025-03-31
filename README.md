@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Ballroom Escuela de Baile <br> https://guido-romano.github.io/ballroom/ </h1>
+  <h1>Escuela de Baile <br> https://guido-romano.github.io/ballroom/ </h1>
 </div>
 
 ## Descripción
