@@ -1,5 +1,6 @@
 <div align="center">
   <h1>Escuela de Baile (Prototipo Web 1.0)<br> https://guido-romano.github.io/Ballroom-Web/ </h1>
+  <img src="https://github.com/Guido-Romano/Ballroom-Rework-Web/blob/main/src/logo.svg" alt="Ballroom" width="300">
 </div>
 
 ## Descripción
