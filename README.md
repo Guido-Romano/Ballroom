@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Escuela de Baile <br> https://guido-romano.github.io/ballroom/ </h1>
+  <h1>Escuela de Baile <br> https://guido-romano.github.io/Ballroom-Web/ </h1>
 </div>
 
 ## Descripción
@@ -8,7 +8,7 @@ Ballroom es una página web diseñada y desarrollada para una escuela de baile. 
 
 Aunque la página se muestra por defecto en español debido a las características del dominio estático de GitHub, **está disponible en dos idiomas: español e inglés**, adaptándose a una audiencia internacional.
 
-**Accede a la web aquí:** [Ballroom](https://guido-romano.github.io/ballroom/)
+**Accede a la web aquí:** [Ballroom](https://guido-romano.github.io/Ballroom-Web/)
 
 ## Tecnologías Utilizadas
 
