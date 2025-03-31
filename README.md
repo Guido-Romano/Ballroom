@@ -5,9 +5,10 @@
 
 ## Descripción
 
-Ballroom es una página web creada especialmente para una escuela de baile, diseñada para proporcionar información clara y detallada sobre los servicios de enseñanza, horarios y métodos de contacto, presentada de forma atractiva y fácil de navegar.
+Ballroom es una página web creada especialmente para una escuela de baile, con estilo retro, diseñada para proporcionar información clara y detallada sobre los servicios de enseñanza, horarios y métodos de contacto, presentada de forma atractiva y fácil de navegar.
 
 Aunque la página se muestra por defecto en español debido a las características del dominio estático de GitHub, **está disponible en dos idiomas: español e inglés**, adaptándose a una audiencia internacional.
+Utilice tecnologías Vanilla y diseño responsivo, para su desarrollo.
 
 **Accede a la web aquí:** [Ballroom](https://guido-romano.github.io/Ballroom-Web/)
 
@@ -23,10 +24,9 @@ Este proyecto ha sido desarrollado con las siguientes tecnologías:
 
 - ✅ **Diseño elegante y profesional**
 - ✅ **Navegación intuitiva y optimizada**
-- ✅ **Contenido atractivo para estudiantes y aficionados al baile**
-- ✅ **Compatible con dispositivos móviles**
+- ✅ **Compatible con dispositivos móviles y otras resoluciones**
 - ✅ **Disponible en español e inglés**
-- ✅ **Código claro y sin frameworks**
+- ✅ **Código claro y sin frameworks (vanilla)**
 
 ---
 
